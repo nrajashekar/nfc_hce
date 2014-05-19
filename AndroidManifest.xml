@@ -59,7 +59,7 @@
             </intent-filter>
         </activity>
 
-        <service
+        <service 
             android:name=".MyHostApduService"
             android:exported="true"
             android:permission="android.permission.BIND_NFC_SERVICE" >

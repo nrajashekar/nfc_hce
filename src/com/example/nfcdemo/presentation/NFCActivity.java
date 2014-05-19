@@ -44,7 +44,7 @@ public class NFCActivity extends ActionBarActivity implements com.example.nfcdem
 			Log.d("NFC DEMO", "NFC adapter not found");
 			this.finish();
 		}
-	}
+	} 
 	
 	@Override
 	public void onConfigurationChanged(Configuration configuration) {

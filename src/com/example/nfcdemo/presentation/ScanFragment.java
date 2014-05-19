@@ -46,7 +46,7 @@ public class ScanFragment extends Fragment implements View.OnClickListener{
 			scanCreditCard();
 			break;
 		case R.id.reset:
-			resetCardDetails();
+			resetCardDetails(); 
 			break;
 		default:
 			break;
