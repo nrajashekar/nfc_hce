@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFCDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_into">Reader mode active</string>
+    <string name="aiddescription">aiddescription</string>
+    <string name="servicedesc">servicedesc</string>
+    <string name="scan_button_text">Scan</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="reader_info_text">Please hold the device,from which the data needs to the transferred, close to your device.</string>
+    <string name="reader_received_data_header">Received Data:</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="separator">:</string>
+    <string name="scanner_info_text">To scan your credit card, please tap on Scan.</string>
+    <string name="scanned_data_header">Scanned Data :</string>
+    <string name="no_scanned_data">No Scanned Data</string>
+    <string name="no_data_received">No Data Received</string>
+</resources>
