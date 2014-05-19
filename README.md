@@ -17,5 +17,5 @@ device via NFC. So the device scanning the credit card demonstrates Host card em
 
 TODO:
 
-Better handling of communication between the hostapduservice and the Activity.
+Better handling of the communication between the hostapduservice and the Activity.
 
