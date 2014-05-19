@@ -15,5 +15,7 @@ The card.io SDK is used to scan a credit/debit card and get the details on one d
 device via NFC. So the device scanning the credit card demonstrates Host card emulation and the other device demonstrates how it can be used as a NFC reader.
 
 
+TODO:
 
+Better handling of communication between the hostapduservice and the Activity.
 
