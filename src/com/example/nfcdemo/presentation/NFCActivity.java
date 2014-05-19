@@ -6,6 +6,7 @@ import com.google.gson.Gson;
 
 import io.card.payment.CreditCard;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.nfc.NfcAdapter;
 import android.nfc.NfcAdapter.ReaderCallback;
 import android.nfc.tech.IsoDep;
@@ -43,6 +44,11 @@ public class NFCActivity extends ActionBarActivity implements com.example.nfcdem
 			Log.d("NFC DEMO", "NFC adapter not found");
 			this.finish();
 		}
+	}
+	
+	@Override
+	public void onConfigurationChanged(Configuration configuration) {
+		super.onConfigurationChanged(configuration);
 	}
 
 	/**

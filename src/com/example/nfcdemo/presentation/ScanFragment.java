@@ -55,6 +55,7 @@ public class ScanFragment extends Fragment implements View.OnClickListener{
 	}
 	
 	private void resetCardDetails() {
+		((NFCApplication)getActivity().getApplication()).setCardDetails(null);
 		update(null);
 	}
 
