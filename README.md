@@ -1,4 +1,4 @@
-nfc_hce
+NFC Host Card Emulation
 =======
 
 
